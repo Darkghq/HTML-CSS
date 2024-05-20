@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coluna--</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+            
+        }
+        
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead, th.especial, td.especial{
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="colgroup">Área</th>
+            
+                <th rowspan="2" scope="colgroup">Disciplina</th>
+            
+                <th colspan="2"  scope="colgroup">Notas</th>
+            
+                <th rowspan="2" scope="colgroup">Média</th>
+                
+            </tr>
+            <tr><td>nota 1</th>
+            <td>nota 2</th></tr>
+        </thead>
+        <tr>
+            <td rowspan="4" scope="rowgroup">Exatas</td>
+            <td scope="rowgroup">Portugues</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            
+            
+        </tr>
+        <tr>
+            <td scope="rowgroup">Matemática</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td scope="rowgroup">Ciencias</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td scope="rowgroup">Computação</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+        <tr><th colspan="4" class="especial" scope="row">
+            Média exatas
+        </th>
+    <td class="especial">0</td></tr>
+        <tr>
+            <td rowspan="2" scope="rowgroup">Humanas</td>
+            <td scope="rowgroup">história</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        
+        </tr>
+        <tr scope="rowgroup"><td>geografia</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+                
+        </tr>
+        <tr>
+            <th colspan="4" class="especial" scope="row">Média humanas</th>
+            <td class="especial">0</td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>
