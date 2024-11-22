@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela desafio 3 </title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            height: 400px;
+            width: 700px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            
+        }
+        th{
+            background-color: rgb(202, 198, 198);
+            color: white;
+        }
+        div{
+            height: 20px;
+            width: 20px;
+            background-color: blue;
+        }
+ 
+    </style>
+</head>
+<body><table>
+    <thead>
+        <colgroup>
+        <col class="amarelo" span="2">
+        
+        
+        </colgroup>
+        <tr>
+            <th rowspan="2" scope="col">Área</th>
+            <th rowspan="2" scope="col">Disciplinas</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="col">Média</th>
+        </tr>
+        <tr>
+            <th scope="col">Nota 1</th>
+            <th scope="col">Nota 2</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr><th rowspan="4" scope="rowgroup">Exatas</th>
+        <td>Matemática</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Ciencias</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Quimica</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Biologia</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th colspan="4" scope="row">Média Exatas</th>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th rowspan="2" scope="rowgroup">Humanas</th>
+        <td>História</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Geografia</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th colspan="4" scope="row">Média Humanas</th>
+        <td>1</td>
+    </tr>
+    </tbody>
+</table>
+<div>
+</div>
+    
+</body>
+</html>
